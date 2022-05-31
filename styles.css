@@ -32,7 +32,7 @@ body {  /* Die Konfiguration für den Body*/
     background-color: var(--primary--color);
     color: #fff;
     height: 100vh;
-    position: relative;
+    position: inherit;
 }
 
 .beispiel:before {
