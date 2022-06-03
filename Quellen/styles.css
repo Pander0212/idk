@@ -83,3 +83,114 @@ nav ul li:hover ul {
 .logo img {
     float: right;
 }
+
+table {
+    margin-top: 60px;
+    height: 1000px; 
+    border-style: hidden; 
+    width: 1024px; 
+    margin-left: auto; 
+    margin-right: auto;
+    background-color: #63A61F;
+}
+.tr {
+    height: 70px;
+}
+
+.tr td {
+    height: 75px;
+    width: 600px;
+}
+
+.tr td h1 {
+    text-align: center;
+}
+
+.tr2 {
+    height: 210px;
+}
+
+.tr2 td {
+    height: 50px;
+    width: 770px
+}
+
+.tr3 {
+    height: 625px; 
+}
+
+.tr3 td {
+    height: 62px;
+    width: 130px
+}
+
+.tr3 td table {
+    margin-left: 10px;
+    margin-top: 5px;
+    height: 245px; 
+    width: 20%;
+    border: 1; 
+    width: 20%; 
+    background-color: #ffffff;
+}
+
+.tr4 {
+    height: 60px;
+}
+
+.tr4 td {
+    height: 60px;
+}
+
+.tr5 {
+    height: 60px;
+}
+
+.tr5 td {
+    height: 60px;
+}
+
+.tr6 {
+    height: 60px;
+}
+
+.tr6 td {
+    height: 60px;
+}
+
+.tr10 {
+    height: 18px;
+}
+
+.tr10 td {
+    height: 18px; 
+    width: 1024px
+}
+
+ol {
+    position: absolute;
+    left: 900px;
+    top: 900px;
+    font-size: 40px;
+}
+
+.div1 {
+    font-size: 20px;
+    position: absolute;
+    left: 800px;
+    top: 850px;
+}
+
+.ol2 {
+    position: absolute;
+    left: 900px;
+    top: 1150px;
+    font-size: 40px;
+}
+
+.div2 {
+    font-size: 20px;
+    position: absolute;
+    left: 850px;
+    top: 1100px;
+}
