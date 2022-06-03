@@ -163,6 +163,7 @@ table {
 }
 
 .td2 p {
+    font-size: 20px;
     margin-top: 5px;
     padding-left: 40px;
 }
@@ -170,7 +171,6 @@ table {
 .td2 table {
     height: 255px; 
     width: 100%;
-    background-color: #ffffff;
 }
 
 .tr8 {
@@ -178,6 +178,7 @@ table {
 }
 
 .tr8 td {
+    align-items: center;
     height: 200px; 
     width: 50%;
 }
@@ -187,8 +188,8 @@ table {
 }
 
 .tr9 td {
-    height: 36px; 
-    width: 50%;
+    height: 25px; 
+    width: 10%;
 }
 
 .tr10 {

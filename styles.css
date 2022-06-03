@@ -28,14 +28,14 @@ body {  /* Die Konfiguration für den Body*/
     padding: 0 3rem;
 }
 
-.beispiel {
+.mitte {
     background-color: var(--primary--color);
     color: #fff;
     height: 100vh;
     position: inherit;
 }
 
-.beispiel:before {
+.mitte:before {
     content:'';
     background: url('https://schnueffelfreunde.de/wp-content/uploads/2017/07/Hunderassen.jpg') no-repeat center
     center/cover;
@@ -47,7 +47,7 @@ body {  /* Die Konfiguration für den Body*/
     z-index: -1;
 }
 
-.beispiel .beispiel-innen {
+.mitte .mitte-innen {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,11 +56,11 @@ body {  /* Die Konfiguration für den Body*/
     height: 100%;
 }
 
-.beispiel h1 {
+.mitte h1 {
     font-size: 4rem;
 }
 
-.beispiel p {
+.mitte p {
     font-size: 1.3rem;
 }
 
