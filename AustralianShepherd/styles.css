@@ -1,0 +1,217 @@
+:root {
+    --primary--color: rgba(25, 148, 185, 0.75);
+    --overlay-color: rgba(24, 39, 51, 0.85);
+    --menu-speed: 0.75s;
+}
+
+* { /* für alle Elemente wird margin und padding auf 0 gesetzt*/
+    margin: 0;
+    padding: 0;
+}
+
+html { /*Die Höhe für den HTML Teil wird auf 100% gesetzt*/
+    height: 100%;
+}
+
+body {  /* Die Konfiguration für den Body*/
+    height: 100%;
+    background: radial-gradient(white, rgb(192, 181, 181));
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 67px;
+    border: 2px;
+    background-color: white;
+    box-shadow: 2px 2px 4px	rgba(0, 0, 0, 0.1);
+}
+
+nav ul{
+    float: left;
+}
+
+nav ul li {
+    float: left;  /* Zum verteilen*/
+    list-style: none; /*Keine Stichpunkte*/
+    position: relative;
+}
+
+nav ul li a {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    text-decoration: none;
+    padding: 21.5px;
+    display: block;
+}
+
+nav ul li ul li a {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: azure;
+}
+
+nav ul li ul {
+    display: block;
+    position: absolute;
+    background-color: #1e9c9c;
+    padding: 7px;
+    border-radius: 0px 0px 12px 12px;
+    opacity: 0;
+}
+
+nav ul li ul a {
+    color: white;
+    padding: 16px 20px;
+    border-radius: 10px;
+}
+
+nav ul li:hover ul {
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.logo img {
+    float: right;
+}
+
+table {
+    margin-top: 60px;
+    height: 1000px; 
+    border-style: hidden; 
+    width: 750px; 
+    margin-left: auto; 
+    margin-right: auto;
+    background-color: #63A61F;
+}
+.tr {
+    height: 70px;
+}
+
+.tr td {
+    height: 75px;
+    width: 1024px;
+}
+
+.tr td h1 {
+    text-align: center;
+}
+
+.tr td p {
+    text-align: center;
+}
+
+.tr td p span {
+    color: #ffffff;
+}
+
+.tr2 {
+    height: 210px;
+}
+
+.tr2 td {
+    height: 50px;
+    width: 770px
+}
+
+.tr3 {
+    height: 625px; 
+}
+
+.tr3 td {
+    height: 62px;
+    width: 130px
+}
+
+.tr3 td table {
+    margin-top: 5px;
+    height: 245px; 
+    width: 100%;
+    border: 1; 
+    width: 100%; 
+    background-color: #ffffff;
+}
+
+.tr4 {
+    height: 60px;
+}
+
+.tr4 td {
+    height: 60px;
+}
+
+.tr5 {
+    height: 60px;
+}
+
+.tr5 td {
+    height: 60px;
+}
+
+.tr6 {
+    height: 60px;
+}
+
+.tr6 td {
+    height: 60px;
+}
+
+.tr7 {
+    height: 60px;
+}
+
+.tr7 td {
+    height: 60px;
+}
+
+.td2 {
+    height: 625px; 
+    width: 635px;
+}
+
+.td2 p {
+    margin-top: 5px;
+    padding-left: 40px;
+}
+
+.td2 table {
+    height: 255px; 
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.tr8 {
+    height: 200px;
+}
+
+.tr8 td {
+    height: 200px; 
+    width: 50%;
+}
+
+.tr9 {
+    height: 36px;
+}
+
+.tr9 td {
+    height: 36px; 
+    width: 50%;
+}
+
+.tr10 {
+    height: 18px;
+}
+
+.tr10 td {
+    height: 18px; 
+    width: 1024px
+}
